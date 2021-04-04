@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Gabriel"/>
+	<meta name="description" content="I am recent engineering student looking for opportunities and collaboration in projects related to Javascript."/>
+	<link rel="icon" href="./logodev.png" type="image/icon type"/>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+	<title>Gabriel Developer</title>
+</head>
+
+<body>
+	<div>
+		<div class="container-header">
+			<a href="#"><img src="./gabrieldev.png" width="400px" alt="Gabriel Dev Logo"/></a>
+		</div>
+
+		<section class="container " id="todos-links">
+
+			<div class="item" id="siteGabriel" onclick="window.location='https://www.gabrielfernandes.dev';">
+				<div class="icon-menu column">
+					<img src="./logodevbranca.png" alt="" width="40px"/>
+				</div>
+				<div class="titulo-menu column">Site Oficial</div>
+			</div>
+
+			<div class="item" id="twitter" onclick="window.location='https://twitter.com/gabrielfdev';">
+				<div class="icon-menu column">
+					<i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+				</div>
+				<div class="titulo-menu column">Twitter</div>
+			</div>
+
+			<div class="item" id="discord" onclick="window.location='https://discord.com';">
+				<div class="icon-menu column">
+					<i class="fab fa-discord fa-2x" aria-hidden="true"></i>
+				</div>
+				<div class="titulo-menu column">Discord</div>
+			</div>
+
+			<div class="item" id="github" onclick="window.location='https://github.com/mackchronus';">
+				<div class="icon-menu column">
+					<i class="fab fa-github fa-2x" aria-hidden="true"></i>
+				</div>
+				<div class="titulo-menu column">GitHub</div>
+			</div>
+
+			<div class="item" id="twitch" onclick="window.location='https://www.twitch.tv/mackenziechronus';">
+				<div class="icon-menu column">
+					<i class="fab fa-twitch fa-2x" aria-hidden="true"></i>
+				</div>
+				<div class="titulo-menu column">Twitch</div>
+			</div>
+
+			<div class="item" id="linkedin" onclick="window.location='https://www.linkedin.com/in/gabrielfernandesdev';">
+				<div class="icon-menu column">
+					<i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+				</div>
+				<div class="titulo-menu column">LinkedIn</div>
+			</div>
+
+			<div class="item" id="youtube"
+				onclick="window.location='https://www.youtube.com/channel/UC-TA_hS9W23vtvRclvem5_Q';">
+				<div class="icon-menu column">
+					<i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+				</div>
+				<div class="titulo-menu column">YouTube</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="container-footer">
+			<div class="logo-footer">
+				<a href="https://github.com/mackchronus">
+					<img src="./logodevbranca.png" width="70px" alt="Gabriel Dev Logo">
+					<p id="copyright-footer" class="titulo-footer">Gabriel Developer © </p>
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		const year = ' ' + new Date().getFullYear();
+
+		document.getElementById('copyright-footer').innerText += year;
+	</script>
+</body>
+</html>
